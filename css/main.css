@@ -37,7 +37,7 @@ nav li {
 
 #content {
     padding-left: 14em;
-    width: 80%;
+    width: 90%;
     float:left;
 }
 
@@ -79,7 +79,7 @@ aside {
   padding-bottom: 40px;
   float: left;
   hight: 100%;
-  width: 20%;
+  width: 10%;
   position: fixed;
   background: lightgrey;
 }
@@ -89,7 +89,7 @@ aside {
   padding-bottom: 40px;
   float: left;
   hight: 100%;
-  width: 20%;
+  width: 10%;
   position: fixed;
   background: lightgrey;
 }
