@@ -74,6 +74,16 @@ ul.posts li {
 
 
 /*  aside */
+aside {
+  padding-top: 3em;
+  padding-bottom: 40px;
+  float: left;
+  hight: 100%;
+  width: 20%;
+  position: fixed;
+  background: lightgrey;
+}
+
 #colorlib-aside {
   padding-top: 3em;
   padding-bottom: 40px;
