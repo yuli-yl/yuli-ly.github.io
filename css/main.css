@@ -8,11 +8,17 @@ body {
 nav {
     padding-top: 20%;
     text-align: left;
-    background-color: lightgrey;
-    position: fixed;
+/*     background-color: lightgrey; */
+/*     position: fixed; */
     top: 0px;
     width: 12em;
-    height: 80%
+/*     height: 80% */
+}
+
+nav li {
+    list-style: none;
+    display: inline-block;
+    padding-right: 60px;
 }
 
 /* nav ul, footer ul {
@@ -22,12 +28,6 @@ nav {
     font-weight: bold;
 } */
 
-nav li {
-    list-style: none;
-    display: inline-block;
-    padding-right: 60px;
-}
-
 /* nav ul li, footer ul li {
     display: inline;
     margin-right: 20px;
@@ -35,7 +35,7 @@ nav li {
 
 #content {
     padding-left: 14em;
-    width:70%;
+    width: calc(100% - 300px);
     float:center;
 }
 
@@ -70,11 +70,28 @@ ul.posts li {
     list-style: none;
 }
 
-aside {
-  width: 20%;
-  padding-left: 15px;
-  margin-left: 15px;
+/*  aside */
+#colorlib-aside {
+  padding-top: 3em;
+  padding-bottom: 40px;
   float: left;
-  font-style: Arial;
-  background-color: lightgrey;
+  width: 300px;
+  position: fixed;
+  overflow-y: scroll;
+  z-index: 1001;
+  background: #f3ead6;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+
+#colorlib-aside .author-img {
+  width: 150px;
+  height: 150px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+/*   -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%; */
 }
