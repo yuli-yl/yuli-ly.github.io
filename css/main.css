@@ -1,3 +1,5 @@
+
+
 body {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 /*     margin: 60px auto; */
@@ -35,8 +37,8 @@ nav li {
 
 #content {
     padding-left: 14em;
-    width: calc(100% - 300px);
-    float:center;
+    width: 80%;
+    float:left;
 }
 
 a {
@@ -70,19 +72,16 @@ ul.posts li {
     list-style: none;
 }
 
+
 /*  aside */
 #colorlib-aside {
   padding-top: 3em;
   padding-bottom: 40px;
   float: left;
+  hight: 100%;
   width: 20%;
   position: fixed;
-  overflow-y: scroll;
-  z-index: 1001;
   background: lightgrey;
-  -webkit-transition: 0.5s;
-  -o-transition: 0.5s;
-  transition: 0.5s;
 }
 
 #colorlib-aside .author-img {
@@ -90,8 +89,4 @@ ul.posts li {
   height: 150px;
   margin: 0 auto;
   margin-bottom: 30px;
-/*   -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-  border-radius: 50%; */
 }
