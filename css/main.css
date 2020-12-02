@@ -33,6 +33,12 @@ nav li {
     margin-right: 20px;
 } */
 
+#content {
+    padding-left: 14em;
+    width:70%;
+    float:center;
+}
+
 a {
     text-decoration: none;
     color: #999;
