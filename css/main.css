@@ -1,28 +1,18 @@
-
 body {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     margin: 60px auto;
     width: 70%;
 }
-
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
     list-style: none;
     font-weight: bold;
 }
-
 nav ul li, footer ul li {
     display: inline;
     margin-right: 20px;
 }
-
-/* #content {
-    padding-left: 14em;
-    width: 90%;
-    float:left;
-} */
-
 a {
     text-decoration: none;
     color: #999;
@@ -44,7 +34,6 @@ footer {
     font-size: .8em;
 }
 
-
 ul.posts { 
     margin: 20px auto 40px; 
     font-size: 1.5em;
@@ -52,33 +41,4 @@ ul.posts {
 
 ul.posts li {
     list-style: none;
-}
-
-
-/*  aside */
-aside {
-  padding-top: 3em;
-  padding-bottom: 40px;
-  float: left;
-  hight: 100%;
-  width: 10%;
-  position: fixed;
-  background: lightgrey;
-}
-
-#colorlib-aside {
-  padding-top: 3em;
-  padding-bottom: 40px;
-  float: left;
-  hight: 100%;
-  width: 10%;
-  position: fixed;
-  background: lightgrey;
-}
-
-#colorlib-aside .author-img {
-  width: 150px;
-  height: 150px;
-  margin: 0 auto;
-  margin-bottom: 30px;
 }
