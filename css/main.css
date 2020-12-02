@@ -7,33 +7,17 @@ body {
     width: 70%;
 }
 
-nav {
-    padding-top: 20%;
-    text-align: left;
-/*     background-color: lightgrey; */
-/*     position: fixed; */
-    top: 0px;
-    width: 12em;
-/*     height: 80% */
-}
-
-nav li {
-    list-style: none;
-    display: inline-block;
-    padding-right: 60px;
-}
-
-/* nav ul, footer ul {
+nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
     list-style: none;
     font-weight: bold;
-} */
+}
 
-/* nav ul li, footer ul li {
+nav ul li, footer ul li {
     display: inline;
     margin-right: 20px;
-} */
+}
 
 #content {
     padding-left: 14em;
